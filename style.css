@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    top: 0;
+}
+
+nav ul{
+   /* display: flex; 
+   list-style-type: none;
+   float: right;
+   margin-top: 10px;
+   margin-left: 80px; */
+   width: 100%;
+list-style-type:none;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    padding-left: 20px; 
+    padding-right: 10px;
+    line-height: 28px;
+}
+
+nav{
+    height: 10px;
+    /* border: 1px solid whitesmoke; */
+    /* box-shadow: 0px 0px 2px black; */
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    position: sticky;
+    color: black;
+    margin-right: 50px;
+    border-radius :10px; ;
+}
+
+a:hover{
+    color: rgb(122, 194, 206);
+}
+
+.navigation  li:first-child{
+    margin-right: 900px;
+}
+
+.container{
+    display: flex;
+   width:1000px;
+   height: 100vh;
+   /* border: 1px solid black; */
+   margin-left: 265px;
+   margin-top: 100px;
+}
+
+.hello{
+    margin-left: 90px;
+    color: rgb(86, 86, 86);
+}
+
+.name{
+    margin-left: 55px;
+}
+
+.dev{
+   margin-left: 45px;
+   color: rgb(147, 145, 145);
+}
+
+.profilepic{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 60%;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: rgb(174, 174, 174);
+}
+
+.name_intro{
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+    padding-left: 50px;
+    margin-top: 180px;
+    font-size: 26px;
+}
+
+.cv{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+#bgcv{
+    color: white;
+    background-color: black;
+}
+
+.linkedin{
+    width: 30px;
+    height: 30px;
+}
+
+.github{
+    width: 30px;
+    height: 30px;
+    margin-left: -5px;
+}
+
+.icons{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.bars{
+    display: none;
+}
+
+.SideBar{
+   position: fixed;
+   margin-left: 1200px;
+   margin-top: 60px;
+   height: 50vh;
+   z-index: 999;
+   background-color: whitesmoke;
+   width: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   justify-items: flex-start;
+}
+
+.menubutton{
+    display: none;
+} 
+
+.page2{
+   width:1000px;
+   height: 100vh;
+   /* border: 1px solid black; */
+   margin-left: 265px;
+}
+
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.aboutmetoh1{
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: -55px;
+  margin-top: 15px;
+  color: black;
+}
+
+.gtkmstyle{
+    color: rgb(101, 101, 101);
+}
+
+.box1{
+    width: 400px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.leaderboard{
+    width: 40px;
+    height: 40px;
+
+}
+
+.box2{
+    width: 400px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.abtme{
+    margin-top: 40px;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.downarrow{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+.page3center{
+    /* border: 1px solid black; */
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    margin-left: 250px !important;
+}
+
+.expboxflex{
+    display: inline-flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: row;
+    margin-top: 150px;
+    color: rgb(85,85,85);
+}
+
+
+.expbox1{
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px ;
+    margin-left: 30px;
+}
+
+.expbox2{
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px ;
+    margin-left: 40px;
+    /* display: none; */
+}
+
+.frttop{
+    margin-top: 20px;
+}
+
+.html{
+    float: left;
+    margin-top: 20px;
+}
+.css{
+    margin-top: 20px;
+}
+
+.verified{
+    margin-left: 20px;
+}
+
+.movetoright{
+    margin-left: 20px;
+}
+
+.experience{
+    margin-top: -15px;
+    margin-left: 60px;
+}
+
+.experience1{
+    margin-right: -90px;
+    margin-top: -15px;
+}
+
+.js{
+    float: left;
+    margin-top: 30px;
+}
+
+.downarrowtoproject{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 40px;
+    height: 40px;
+}
+
+.page4{
+    
+     /* border: 1px solid black; */
+     width: 1000px;
+     height: 100vh;
+     font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 200px;
+  margin-left: 250px !important;
+}
+
+.content{
+    text-align: center;
+}
+
+.tobeflex{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 150px;
+}
+
+.pro1{
+
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    box-shadow: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.pro2{
+    /* display: inline-flex; */
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    box-shadow: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.pro3{
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    box-shadow: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.projimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.hublink1{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.hublink2{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.hublink2{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.toaligntocenter{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.hublink1:hover{
+    color: white;
+    background-color: black;
+}
+.hublink2:hover{
+    color: white;
+    background-color: black;
+}
+
+.downarrowtoprojectsec4{
+    position: relative;
+    margin-left: 920px;
+    top: 80px;
+    width: 40px;
+    height: 40px;
+}
+
+.page5{
+    /* border: 1px solid black; */
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 250px;
+
+}
+
+.coninfo{
+    color: white;
+}
+
+.mailbox{
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+   margin-top:100px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 420px;
+    height: 100px;
+    padding-left: 30px;
+    
+}
+
+.mailtotop{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.mailtoleft{
+     margin-top: 20px;
+}
+
+.toright{
+    width: 60px;
+    height: 60px;
+}
+
+.mailicon{
+    margin-top: 10px;
+    
+}
+
+.mailtonear{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+.linkedinlink{
+    margin-left: 280px;
+    margin-top: -26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin1{
+    margin-left: 5px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+@media (max-width: 600px ) {
+
+    .container{
+        position: relative;
+        display: block !important;
+        left: -80px;
+    }
+
+    .hellotocenter{
+        margin: 0;
+        padding: 0;
+    }
+
+    .hideonmobile{
+        display: none;
+    }
+
+    .menubutton{
+        display: block;
+       margin-left: -250px;
+    } 
+
+   .navigation{
+   margin-left: 1300px !important; 
+   }
+
+   .bars{
+    margin-left: -280px;
+   }
+
+    .SideBar{
+        margin-top: 10px;
+        width: 600px;
+    }
+
+    .icons{
+        margin-left: 68px;
+    }
+
+    .page2{
+        position: relative;
+        margin-top: 450px;
+        left: -80px !important;
+     
+
+    }
+
+    .page3{
+        position: absolute;
+        top: 2000px;
+        left: -300px;
+        margin-top: 200px;
+        margin-left: 100px !important;
+    }
+
+    .page3center{
+        position: relative;
+        left: -180px;
+    }
+
+    .gtkmstyle{
+        margin-left: 150px;
+    }
+
+    .page4{
+        position: relative;
+        left: -160px;
+    }
+}
+
+@media (max-width:768px){
+    .hideonmobile{
+        display: none;
+    }
+
+    .menubutton{
+        display: block;
+    } 
+
+    .container{
+        display: block !important;
+        margin-left: 350px;
+        
+    }
+
+    .bars{
+        display: block;
+    }
+
+    .profilepic{
+        width: 500px;
+        height: 500px;
+    }
+
+    .name_intro{
+        margin-left: 150px;
+        margin-top: 50px;
+        font-size: 45px;
+    }
+
+    .hellotocenter{
+        margin: 0;
+        padding: 0;
+    }
+
+     .hello{
+        padding-left: 30px;
+     }
+
+     .name{
+        margin-right: 500px;;
+     }
+
+     .cv_contactinfo{
+        margin:0;
+        padding: 0;
+     }
+
+     .movetocenter{
+        padding-left: 60px;
+     }
+
+     .SideBar{
+        margin-left: 1300px;
+        margin-top: 10px;
+    }
+
+    .navigation{
+        margin-left: 1200px;
+       }
+
+       .navigation  li:first-child{
+        padding-right: 500px;
+    }
+
+    .page2{
+        display: block !important;
+       margin: 0;
+    }
+
+    .aligntocenter{
+        margin-top: 400px;
+        margin-left: 500px;
+    }
+
+    .page3{
+        margin-top: 200px;
+        padding-left: 80px;
+    }
+
+    .page5{
+        position: relative;
+        left: -60px;
+    }
+    
+    .footer{
+        position: relative;
+        left: 400px;
+    }
+}
+
+@media (max-width:1200px){
+
+    .navigation  li:first-child{
+        padding-left: -500px;
+    }
+
+    .navigation{
+        margin-left: 1500px;
+       }
+
+    .container{
+        margin-right: 300px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page3{
+        position: relative;
+        right: 40px;
+    }
+}
